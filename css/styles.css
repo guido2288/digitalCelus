@@ -1,0 +1,85 @@
+body {
+    background-image: url(../img/bg-2.png);
+    width: 960px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "head head head"
+                         "main main menu";
+}
+.head{
+    grid-area: head;
+    background-color: #f56420;
+    color: white;
+    margin: 13px 0px;
+   
+}
+.main{
+    grid-area: main;
+    background-color: white;
+    width: 640px;
+    
+}
+.menu{
+    grid-area: menu;
+    width: 320px;    
+}
+.logo {
+    float: left;
+
+}
+.accesos  {
+    float: left;
+    margin: 15px;
+}
+.accesos2  {
+    float: left;
+    margin: 15px;
+}
+.accesos3  {
+    float: left;
+    margin: 15px;
+}
+.registro {
+    float: right;
+    margin: 15px;
+}
+.login {
+    float: right;
+    margin: 15px;
+}
+.phone1 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.phone2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.phone3 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.phone4 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.tuto {
+    background-color: white;
+    padding: 1px 8px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.reparacionCelu {
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    
+
+}
